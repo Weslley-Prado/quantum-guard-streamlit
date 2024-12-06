@@ -2,9 +2,7 @@ import pandas as pd
 import joblib
 import streamlit as st
 import os
-# # Caminhos dos modelos
-# caminho_modelo_classico = './infra/model_of_classical_machine_learning/modelo_anti_fraude.pkl'
-# caminho_modelo_quantico = './infra/model_of_quantum_machine_learning/modelo_anti_fraude_quantum.pkl'
+
 
 import qiskit
 print(qiskit.__version__)
